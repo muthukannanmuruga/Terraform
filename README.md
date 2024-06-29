@@ -1,4 +1,4 @@
-Run below command before git push origin
+Run below command before git push origin:
 
 
 git filter-branch --index-filter 'git rm -r --cached --ignore-unmatch Environment/Dev/.terraform/' HEAD
